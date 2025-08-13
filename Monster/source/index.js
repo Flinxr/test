@@ -40,12 +40,12 @@ function LoginConfirm(){
     let username = document.getElementById('login-username').value
     if(username == 'admin'){
         localStorage.setItem('token','eusfhuufshudifuhuywsufhdf')
-        window.location.href=window.location.origin + 'admin.html'
+        window.location.href=window.location.origin + '/test/Monster/source/admin.html'
     }
 
     if(username == 'user'){
         localStorage.setItem('token','eusfhuufshudifuhuywsufhdf')
-        window.location.href=window.location.origin + 'userCart.html'
+        window.location.href=window.location.origin + '/test/Monster/source/userCart.html'
     }else{
     }
 }
@@ -61,6 +61,7 @@ function onlineclasshref(){
 function inpersonclasshref(){
     window.location.href=window.location.origin + 'inPersonClass.html'
 }
+
 
 
 
