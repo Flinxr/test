@@ -426,7 +426,7 @@ img {
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  background-image: url(../assets/transparent\ texture.png), linear-gradient(90deg, #0e0e0e, #072972bd);
+  background-image: url(../assets/transparent\ texture.png), linear-gradient(90deg, #0e0e0e, #f023cebd);
   border-radius: 14px;
   padding: 20px 40px;
   transition: 0.3s ease;
@@ -1512,7 +1512,7 @@ a {
 
     .app-card {
       width: 70vw;
-      margin-top: 20px;
+      /* margin-top: 20px; */
     }
 
     .app-card img {
@@ -1537,7 +1537,7 @@ a {
 
     .app {
       max-height: 90vh;
-      margin-bottom: 13vh;
+   
     }
   }
 
@@ -1603,3 +1603,4 @@ a {
       padding: 0 16px;
     }
   }
+

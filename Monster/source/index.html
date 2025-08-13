@@ -11,7 +11,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" id="theme-style" />
-    <link rel="stylesheet" href="../source/index.css" />
+    <link rel="stylesheet" href="index.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -35,7 +35,7 @@
       <div class="header">
         <div class="header-menu">
           <img src="../assets/xlogo.png" alt="" />
-          <a class="menu-link is-active" href="./index.html">خانه</a>
+          <a class="menu-link is-active" href="index.html">خانه</a>
         </div>
         <div class="header-profile"></div>
       </div>
@@ -58,7 +58,46 @@
               <div class="content-section-title">کاتالوگ</div>
               <div class="apps-card">
                 <!-- product 1 -->
-                <div class="app-card" onclick="inpersonclasshref()">
+                <div class="app-card" onclick="window.location.href='inPersonClass.html'">
+                  <img
+                    class="products-img"
+                    src="../assets/testpic.png"
+                    alt=""
+                  />
+                  <br />
+                  <span>اسم محصول</span>
+                  <div class="app-card__subtext" onclick="window.location.href='inPersonClass.html'">سابتکست</div>
+                  <div class="app-card-buttons">
+                    <span class="price">20.000.000 تومان</span>
+                  </div>
+                </div>
+                <div class="app-card" onclick="window.location.href='inPersonClass.html'">
+                  <img
+                    class="products-img"
+                    src="../assets/testpic.png"
+                    alt=""
+                  />
+                  <br />
+                  <span>اسم محصول</span>
+                  <div class="app-card__subtext">سابتکست</div>
+                  <div class="app-card-buttons">
+                    <span class="price">20.000.000 تومان</span>
+                  </div>
+                </div>
+                <div class="app-card" onclick="window.location.href='inPersonClass.html'">
+                  <img
+                    class="products-img"
+                    src="../assets/testpic.png"
+                    alt=""
+                  />
+                  <br />
+                  <span>اسم محصول</span>
+                  <div class="app-card__subtext">سابتکست</div>
+                  <div class="app-card-buttons">
+                    <span class="price">20.000.000 تومان</span>
+                  </div>
+                </div>
+                <div class="app-card" onclick="window.location.href='inPersonClass.html'">
                   <img
                     class="products-img"
                     src="../assets/testpic.png"
@@ -120,23 +159,24 @@
       <div class="overlay-app"></div>
     </div>
     <!-- Scripts -->
-    <script src="../source/index.js"></script>
+    <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
         <script>
         VANTA.FOG({
             el: "#vantabg",
-     mouseControls: true,
+ mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
-  highlightColor: 0x313131,
-  midtoneColor: 0x2e637a,
-  lowlightColor: 0x464646,
-  baseColor: 0x343434,
-  blurFactor: 0.90
+  highlightColor: 0xd21717,
+  midtoneColor: 0xff005a,
+  lowlightColor: 0xd23e95,
+  blurFactor: 0.69,
+  speed: 2.80,
+  zoom: 1.20
         })
     </script>
   </body>
