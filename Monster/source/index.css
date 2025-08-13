@@ -1537,7 +1537,7 @@ a {
 
     .app {
       max-height: 90vh;
-   
+     margin-bottom: 1vh;
     }
   }
 
@@ -1603,4 +1603,5 @@ a {
       padding: 0 16px;
     }
   }
+
 
